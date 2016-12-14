@@ -8,10 +8,9 @@ angular.module("mailApp").component("messageList",{
     bindings: {
         //name of the field in the controller = name of the attribute in the html
         messages : "<messages",  //mandatory
-        //it is the same as folders:"=?"
-        //? means optional
+
         title: "<", //equivalent to "<title",
-        onSelect : "&",
+
         onCurrentMessageChanged: "&"
         
     } 

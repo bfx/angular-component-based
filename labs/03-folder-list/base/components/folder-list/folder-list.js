@@ -1,7 +1,7 @@
 //component name - component definition object
 angular.module("mailApp").component("TODO component name",{
     templateUrl : "components/folder-list/folder-list.html",
-    controller: //TODO component controller name,
+    controller: "", //TODO component controller name,
     controllerAs: "TODO ALIAS", 
     
     //they are applied as fields in the controller object
@@ -15,8 +15,8 @@ angular.module("mailApp").component("TODO component name",{
         
         //TODO bind onSelect callback
         
-        //optional bind allowCreate: "@",
-        onAddNew: "&",
+        //TODO optional bind allowCreate: "@",
+        onAddNew: "&"
     } 
     
 });

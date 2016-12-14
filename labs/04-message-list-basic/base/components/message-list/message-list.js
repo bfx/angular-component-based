@@ -11,7 +11,7 @@ angular.module("mailApp").component("TODO COMPONENT NAME",{
 
         //TODO BIND title PARAMETER
     
-        //TODO 3 BIND current MESSAGE change callback
+        //TODO BIND current MESSAGE change callback
         
         //TODO ADVANCED - implement multiple message selection
         
