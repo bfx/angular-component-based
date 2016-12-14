@@ -56,8 +56,10 @@
                      ng-show="mailCtrl.composerActive">
                 <message-composer 
                     draft="mailCtrl.draft"
-                    
-                ><!-- TODO-BIND-EVENTS-HERE -->
+                    on-save="mailCtrl.updateDraft(draft)"
+                    on-send="mailCtrl.send()"
+                    on-cancel="mailCtrl.closeComposer()"
+                >
                     
                 </message-composer>    
             </section> 
@@ -75,10 +77,8 @@
                 </div>
                 <message-viewer 
                     message="mailCtrl.currentMessage"
-                    on-reply="mailCtrl.replyTo(message)"
-                    on-forward="mailCtrl.forward(message)"
-                    on-delete="mailCtrl.delete(message)"
                     >
+                    <!-- TODO events reply, forward, delete for message-viewer -->
                 </message-viewer>
             </section>
 

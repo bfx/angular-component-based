@@ -45,13 +45,10 @@ function MailController(AccountService, MessageService)
     this.selectCurrentMessage = function (message)
     {
         this.currentMessage = message; 
-    }
+    };
 
     this.delete = function (message) {
-        var index = this.messages.indexOf(message);
-        if (index != -1) {
-            this.messages.splice(index, 1);
-        }
+        //TODO remove message from this.messages...
     };
 
     this.replyTo = function (message){

@@ -8,8 +8,7 @@ angular.module("mailApp")
             "draft" : "<", //input parameter, with data binding
             "onSend" : "&", //callback
             "onSave" : "&",
-            "onCancel" : "&",
-            
+            "onCancel" : "&"
         }
    
     });

@@ -45,7 +45,7 @@ function MailController(AccountService, MessageService)
     this.selectCurrentMessage = function (message)
     {
         this.currentMessage = message; 
-    }
+    };
 
 
         //TODO discuss if initialize the sender here or in the composer    
@@ -67,7 +67,7 @@ function MailController(AccountService, MessageService)
         if (template) {
             this.draft.to = template.to;
             this.draft.subject = template.subject;
-            this.draft.body = template.body; //TODO add signature 
+            this.draft.body = template.body; //TODO advanced add signature
         } 
         this.composerActive = true; 
     };

@@ -19,7 +19,7 @@ function MessageViewerController() {
 
     //FUTURE lab - refactor the messageActionsToolbar with transclusion
     this.reply = function () {
-        
+
         this.onReply({
             message : this.message
         });

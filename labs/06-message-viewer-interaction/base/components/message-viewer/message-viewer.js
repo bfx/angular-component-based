@@ -8,33 +8,13 @@ angular.module("mailApp").component("messageViewer",{
     bindings: {
         //name of the field in the controller = name of the attribute in the html
         message : "<message",  //mandatory
-        onReply : "&",
-        onForward : "&",
-        onDelete : "&",
-    } 
+        //TODO BIND EVENTS replay, forward, delete
+    }
     
 });
 
 function MessageViewerController() {
 
-    //FUTURE lab - refactor the messageActionsToolbar with transclusion
-    this.reply = function () {
 
-        this.onReply({
-            message : this.message
-        });
-    };
-    this.forward = function () {
-        this.onForward({
-            message : this.message
-        });      
-    };
-
-    this.delete = function () {
-        //TODO ask for confirmation
-        this.onDelete({
-            message : this.message
-        });
-    };
 
 }

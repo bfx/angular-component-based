@@ -6,8 +6,9 @@ angular.module("mailApp")
         templateUrl: "components/message-composer/message-composer.html",
         bindings: {
             "draft" : "<", //input parameter, with data binding
-            //TODO BIND reply, forward, cancel callbacks
-            
+            "onSend" : "&", //callback
+            "onSave" : "&",
+            "onCancel" : "&"
         }
    
     });

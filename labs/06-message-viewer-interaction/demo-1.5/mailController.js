@@ -45,7 +45,7 @@ function MailController(AccountService, MessageService)
     this.selectCurrentMessage = function (message)
     {
         this.currentMessage = message; 
-    }
+    };
 
     this.delete = function (message) {
         var index = this.messages.indexOf(message);
