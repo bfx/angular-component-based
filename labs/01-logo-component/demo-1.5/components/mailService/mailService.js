@@ -1,3 +1,5 @@
+"use strict";
+(function () {
 /*
     MessageService contains message model
  */
@@ -107,3 +109,4 @@ function MessageService(){
 
 angular.module("mailApp")
     .service("MessageService", MessageService);
+})();
