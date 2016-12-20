@@ -1,6 +1,11 @@
-## Additional labs
-* add a "starred" component
+## TODO
+* Implements component message-viewer
+  * components binding
+  
+## Additional Topics
+* Binding with "@"
+* Controller and 'this' usage 
+* Filters
 
-
-## Ideas for further labs
-
+## Best practices
+* Top-down component design: html first

@@ -7,25 +7,29 @@ function MessageService(){
                 to: "carlo.bonamico@gmail.com",
                 from: "sonia.pini@nispro.it",
                 subject: "Angular 1.5",
-                body: " a b c "
+                body: " a b c ",
+                date: new Date()
             },
             {
                 to: "carlo.bonamico@gmail.com",
                 from: "carlo.bonamico@nispro.it",
                 subject: "Typescript",
-                body: " a b c d e f  "
+                body: " a b c d e f  ",
+              date: new Date()
             },
             {
                 to: "carlo.bonamico@gmail.com",
                 from: "sonia.pini@nispro.it",
                 subject: "Flexbox how-to",
-                body: " a b c d e f  "
+                body: " a b c d e f  ",
+              date: new Date()
             },
             {
                 to: "carlo.bonamico@gmail.com",
                 from: "sonia.pini@nispro.it",
                 subject: "Re: ES6 tutorial",
-                body: " a b c d e f  "
+                body: " a b c d e f  ",
+              date: new Date()
             }
         ];
 

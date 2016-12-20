@@ -8,6 +8,7 @@ angular.module("mailApp").component("messageViewer",{
     bindings: {
         //name of the field in the controller = name of the attribute in the html
         message : "<message",  //mandatory
+        titlePrefix : "@" //title-prefix
     } 
     
 });
